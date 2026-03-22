@@ -4,7 +4,6 @@
 #include "image_transport/image_transport.hpp"
 #include <opencv2/opencv.hpp>
 #include "rclcpp_components/register_node_macro.hpp"
-#include "chrono"
 
 class VirtualCamNode : public rclcpp::Node{
 public:
